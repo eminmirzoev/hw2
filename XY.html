@@ -9,19 +9,19 @@
 <body>
     <script>
         let x, y, z;
-        if (x=0,y=0) {
-        z=0
-        }
         if (x>0) {
-        if (y>0) {z=1;
+            if (y>0) {
+                z=1;
         }
-        else z=4;
+            else z=4;
         }
-        else {if (y>0) {
-        z=2}
-        else z=3;
+        if (x<0) {
+            if (y>0) {
+                 z=2}
+            else z=3;
         }
-        console.log(z);
+        else {myString = 'точка лежит на оси'}
+        console.log(z || myString);
 </script>
 </body>
 </html>
