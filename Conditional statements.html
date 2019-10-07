@@ -6,15 +6,14 @@
 </head>
 <body>
     <script>
-      let a = 1;
-      let b = 0;
-      for ( a = 1; a < 99; a++ ) {
-         if ( a % 2 == 0 ) {
-             b = b + a;
+      let evenNumber;
+      let sumOfEvenNumber = 0;
+      for ( evenNumber = 1; evenNumber < 99; evenNumber++ ) {
+         if ( evenNumber % 2 == 0 ) {
+            sumOfEvenNumber = sumOfEvenNumber + evenNumber;
          }
      }
-     console.log(b);  
+     console.log(sumOfEvenNumber);  
     </script>
-    
 </body>
 </html>
